@@ -1507,6 +1507,8 @@
 }
 .modal_package-price {
     margin: 12px 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 .modal_package-price span:first-child {
     color: var(--black-color);

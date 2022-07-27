@@ -187,7 +187,8 @@ const movieList = [
         update: '12',
         imgMin: './assets/img/carousel-img1.webp',
         imgMax: './assets/img/carousel-img1-large.webp',
-        video: './assets/img/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
+      
     },
     {
         id: '2',
@@ -196,7 +197,7 @@ const movieList = [
         update: '35',
         imgMin: './assets/img/carousel-img2.webp',
         imgMax: './assets/img/carousel-img2-large.webp',
-        video: './assets/img/Teaser_HuongMatTuaKhoiSuong.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '3',
@@ -205,7 +206,7 @@ const movieList = [
         update: 'Cập nhật 4',
         imgMin: './assets/img/carousel-img3.webp',
         imgMax: './assets/img/carousel-img3-large.webp',
-        video: './assets/img/Teaser_Mouse_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '4',
@@ -214,7 +215,7 @@ const movieList = [
         update: '20',
         imgMin: './assets/img/carousel-img4.webp',
         imgMax: './assets/img/carousel-img4-large.webp',
-        video: './assets/img/Teaser_KhiEmDepNhat_moi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '5',
@@ -223,7 +224,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img5.webp',
         imgMax: './assets/img/carousel-img5-large.webp',
-        video: './assets/img/Teaser_HotelDelLuna_2_moi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '6',
@@ -232,7 +233,7 @@ const movieList = [
         update: '20',
         imgMin: './assets/img/carousel-img6.webp',
         imgMax: './assets/img/carousel-img6-large.webp',
-        video: './assets/img/Teaser_Penthouse3_ep14.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '7',
@@ -241,7 +242,7 @@ const movieList = [
         update: 'Cập nhật 4',
         imgMin: './assets/img/carousel-img7.webp',
         imgMax: './assets/img/carousel-img7-large.webp',
-        video: './assets/img/Teaser_DanhVong.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '8',
@@ -259,7 +260,7 @@ const movieList = [
         update: 'Cập nhật 4',
         imgMin: './assets/img/carousel-img9.webp',
         imgMax: './assets/img/carousel-img9-large.webp',
-        video: './assets/img/Teaser_HuongMatTuaKhoiSuong.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '10',
@@ -268,7 +269,7 @@ const movieList = [
         update: 'Cập nhật 222',
         imgMin: './assets/img/carousel-img10.webp',
         imgMax: './assets/img/carousel-img10-large.webp',
-        video: './assets/img/Teaser_Mouse_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '11',
@@ -277,7 +278,7 @@ const movieList = [
         update: 'Cập nhật 21',
         imgMin: './assets/img/carousel-img11.webp',
         imgMax: './assets/img/carousel-img11-large.webp',
-        video: './assets/img/Teaser_KhiEmDepNhat_moi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '12',
@@ -286,7 +287,7 @@ const movieList = [
         update: '48',
         imgMin: './assets/img/carousel-img12.webp',
         imgMax: './assets/img/carousel-img12-large.webp',
-        video: './assets/img/Teaser_HotelDelLuna_2_moi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '13',
@@ -295,7 +296,7 @@ const movieList = [
         update: '1',
         imgMin: './assets/img/carousel-img13.webp',
         imgMax: './assets/img/carousel-img13-large.webp',
-        video: './assets/img/Teaser_Penthouse3_ep14.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '14',
@@ -313,7 +314,7 @@ const movieList = [
         update: '997',
         imgMin: './assets/img/carousel-img15.webp',
         imgMax: './assets/img/carousel-img15-large.webp',
-        video: './assets/img/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '16',
@@ -322,7 +323,7 @@ const movieList = [
         update: '25',
         imgMin: './assets/img/carousel-img16.webp',
         imgMax: './assets/img/carousel-img16-large.webp',
-        video: './assets/img/Teaser_HuongMatTuaKhoiSuong.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '17',
@@ -331,7 +332,7 @@ const movieList = [
         update: '131',
         imgMin: './assets/img/carousel-img17.webp',
         imgMax: './assets/img/carousel-img17-large.webp',
-        video: './assets/img/Teaser_Mouse_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '18',
@@ -340,7 +341,7 @@ const movieList = [
         update: '31',
         imgMin: './assets/img/carousel-img18.webp',
         imgMax: './assets/img/carousel-img18-large.webp',
-        video: './assets/img/Teaser_KhiEmDepNhat_moi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '19',
@@ -349,7 +350,7 @@ const movieList = [
         update: 'Cập nhật 3',
         imgMin: './assets/img/carousel-img19.webp',
         imgMax: './assets/img/carousel-img19-large.webp',
-        video: './assets/img/Teaser_HotelDelLuna_2_moi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '20',
@@ -358,7 +359,7 @@ const movieList = [
         update: '16',
         imgMin: './assets/img/carousel-img20.webp',
         imgMax: './assets/img/carousel-img20-large.webp',
-        video: './assets/img/Teaser_Penthouse3_ep14.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '21',
@@ -367,7 +368,7 @@ const movieList = [
         update: '55',
         imgMin: './assets/img/carousel-img21.webp',
         imgMax: './assets/img/carousel-img21-large.webp',
-        video: './assets/img/Teaser_DanhVong.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '22',
@@ -376,7 +377,7 @@ const movieList = [
         update: '45',
         imgMin: './assets/img/carousel-img22.webp',
         imgMax: './assets/img/carousel-img22-large.webp',
-        video: './assets/img/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '23',
@@ -385,7 +386,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img23.webp',
         imgMax: './assets/img/carousel-img23-large.webp',
-        video: './assets/img/Teaser_HuongMatTuaKhoiSuong.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '24',
@@ -394,7 +395,7 @@ const movieList = [
         update: '78',
         imgMin: './assets/img/carousel-img24.webp',
         imgMax: './assets/img/carousel-img24-large.webp',
-        video: './assets/img/Teaser_Mouse_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '25',
@@ -403,7 +404,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img25.webp',
         imgMax: './assets/img/carousel-img25-large.webp',
-        video: './assets/img/Teaser_KhiEmDepNhat_moi.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '26',
@@ -412,7 +413,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img26.webp',
         imgMax: './assets/img/carousel-img26-large.webp',
-        video: './assets/img/Teaser_HotelDelLuna_2_moi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '27',
@@ -421,7 +422,7 @@ const movieList = [
         update: '44',
         imgMin: './assets/img/carousel-img27.webp',
         imgMax: './assets/img/carousel-img27-large.webp',
-        video: './assets/img/Teaser_Penthouse3_ep14.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '28',
@@ -430,7 +431,7 @@ const movieList = [
         update: 'Cập nhật 5',
         imgMin: './assets/img/carousel-img28.webp',
         imgMax: './assets/img/carousel-img28-large.webp',
-        video: './assets/img/Teaser_DanhVong.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '29',
@@ -439,7 +440,7 @@ const movieList = [
         update: '39',
         imgMin: './assets/img/carousel-img29.webp',
         imgMax: './assets/img/carousel-img29-large.webp',
-        video: './assets/img/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '30',
@@ -448,7 +449,7 @@ const movieList = [
         update: 'Cập nhật 71',
         imgMin: './assets/img/carousel-img30.webp',
         imgMax: './assets/img/carousel-img30-large.webp',
-        video: './assets/img/Teaser_HuongMatTuaKhoiSuong.mp4'
+        video: './assets/img/video/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
     },
     {
         id: '31',
@@ -457,7 +458,7 @@ const movieList = [
         update: '12',
         imgMin: './assets/img/carousel-img31.webp',
         imgMax: './assets/img/carousel-img31-large.webp',
-        video: './assets/img/Teaser_Mouse_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '32',
@@ -466,7 +467,7 @@ const movieList = [
         update: '35',
         imgMin: './assets/img/carousel-img32.webp',
         imgMax: './assets/img/carousel-img32-large.webp',
-        video: './assets/img/Teaser_KhiEmDepNhat_moi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '33',
@@ -475,7 +476,7 @@ const movieList = [
         update: 'Cập nhật 4',
         imgMin: './assets/img/carousel-img33.webp',
         imgMax: './assets/img/carousel-img33-large.webp',
-        video: './assets/img/Teaser_HotelDelLuna_2_moi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '34',
@@ -484,7 +485,7 @@ const movieList = [
         update: '20',
         imgMin: './assets/img/carousel-img34.webp',
         imgMax: './assets/img/carousel-img34-large.webp',
-        video: './assets/img/Teaser_Penthouse3_ep14.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '35',
@@ -493,7 +494,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img35.webp',
         imgMax: './assets/img/carousel-img35-large.webp',
-        video: './assets/img/Teaser_DanhVong.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '36',
@@ -502,7 +503,7 @@ const movieList = [
         update: '20',
         imgMin: './assets/img/carousel-img36.webp',
         imgMax: './assets/img/carousel-img36-large.webp',
-        video: './assets/img/Teaser_SuMenhCuoiCungCuaThienThan_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '37',
@@ -511,7 +512,7 @@ const movieList = [
         update: '1',
         imgMin: './assets/img/carousel-img37.webp',
         imgMax: './assets/img/carousel-img37-large.webp',
-        video: './assets/img/Teaser_HuongMatTuaKhoiSuong.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     },
     {
         id: '38',
@@ -520,7 +521,7 @@ const movieList = [
         update: '30',
         imgMin: './assets/img/carousel-img38.webp',
         imgMax: './assets/img/carousel-img38-large.webp',
-        video: './assets/img/Teaser_Mouse_chuanmoi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '39',
@@ -529,7 +530,7 @@ const movieList = [
         update: '16',
         imgMin: './assets/img/carousel-img39.webp',
         imgMax: './assets/img/carousel-img39-large.webp',
-        video: './assets/img/Teaser_KhiEmDepNhat_moi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '40',
@@ -538,7 +539,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img40.webp',
         imgMax: './assets/img/carousel-img40-large.webp',
-        video: './assets/img/Teaser_HotelDelLuna_2_moi.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '41',
@@ -547,7 +548,7 @@ const movieList = [
         update: '20',
         imgMin: './assets/img/carousel-img41.webp',
         imgMax: './assets/img/carousel-img41-large.webp',
-        video: './assets/img/Teaser_Penthouse3_ep14.mp4'
+        video: './assets/img/video/Teaser_Mouse_chuanmoi.mp4'
     },
     {
         id: '42',
@@ -556,7 +557,7 @@ const movieList = [
         update: '24',
         imgMin: './assets/img/carousel-img42.webp',
         imgMax: './assets/img/carousel-img42-large.webp',
-        video: './assets/img/Teaser_DanhVong.mp4'
+        video: './assets/img/video/Teaser_HuynhDeThanMenCuaTa.mp4'
     }
 ]
 
