@@ -117,7 +117,7 @@ billboardVideo.onended = function billboardVideoEnded() {
 
 // Modal
 function joinVipModal() {
-    const registerVip = [$('.header_tagvip-btn'), $('.container_banner')]
+    const registerVip = [$('.header_tagvip-btn'), $('.container_banner'), $('.header_tagvip-join')]
     const modal = $('#modal-join-vip')
     const modalContainer = $('#modal-join-vip .modal-container')
     const modalClose = $('#modal-join-vip .modal_close')

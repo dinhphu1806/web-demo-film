@@ -198,9 +198,41 @@
         font-size: 1.1rem;
         padding: 0;
     }
+    .modal_close{
+        position: absolute;
+        top: -30px;
+        right: -10px;
+        z-index: 1000;
+    }
+    .modal_close i{
+        color: #ccc;
+    }
+    .modal_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #23252b;
+    }
     .modal-container {
         padding: 20px;
+        background-color: #000;
     }
+    .note{
+        display: flex;
+        flex-direction: column;
+    }
+    .note .note-content, .note-nav{
+        color: rgba(255, 255, 255, 0.861);
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .modal_footer .check-box label{
+        color: #fff;
+    }
+    .modal_footer .check-box a{
+        color: #ccc;
+    }
+
     .billboard_content {
         padding-left: 15px;
         padding-right: 15px;

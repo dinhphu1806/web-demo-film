@@ -1426,37 +1426,86 @@
     max-width: 94%;
     width: 902px;
     border-radius: 6px;
-    padding: 40px;
+    /* padding: 40px; */
     margin: 110px auto 40px;
     position: relative;
 }
 .modal_close {
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
     cursor: pointer;
 }
 .modal_close i {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     color: #666;
-    padding: 8px 10px;
+    padding: 10px;
 }
 .modal_close:hover i {
-    color: #222;
+    color:#ccc;
+    transition: all 0.2s linear;
 }
 .modal_header {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #23252b;
+
 }
-.modal_header h3 {
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-    color: var(--black-color);
-    margin: 10px;
+.modal_header-left {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 20px;
 }
-.modal_header h5 {
-    font-size: 1.4rem;
-    color: #666;
-    font-weight: 400;
+.modal_header-left .modal_header-icon{
+    width: 50px;
+    height: 50px;
+    background-color: #535459;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.modal_header-left .modal_header-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 3.5rem;
+    color: #88898c;
+}
+
+.modal_header-left .modal_header-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.modal_header-left .modal_header-text a{
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+}
+.modal_header-left .modal_header-text a:nth-child(2){
+    color: #f2bf83;
+    margin: 4px 0 0;
+}
+.modal_header-right{
+    padding: 20px 60px;
+}
+.modal_header-right a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    
+}
+.modal_header-right a img{
+    width: 25px;
+    margin-right: 10px;
+}
+.modal-content{
+    padding: 20px;
 }
 .modal_body {
     margin: 20px 0;
@@ -1537,7 +1586,36 @@
     font-size: 1rem;
 }
 .modal_footer {
-    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.modal_footer .check-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.modal_footer .check-box input{
+    margin: 0 10px;
+}
+.modal_footer .check-box label{
+    font-size: 14px;
+}
+.modal_footer .check-box a{
+    text-decoration: underline;
+    color: #999999;
+}
+.modal_footer .check-box a:hover{
+    color: #e09e51;
+}
+.modal_footer input[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 16px;
+    background-color:  #f4cb9b;
+    font-size: 16px;
+    font-weight: 600;
 }
 .modal_btn {
     width: 60%;
@@ -1554,7 +1632,41 @@
     border: 2px solid rgb(237, 185, 123);
     cursor: pointer;
 }
-
+.note .note-content{
+    font-size: 14px;
+}
+.note-nav {
+    font-size: 14px;
+    list-style: none;
+}
+.payment-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px;
+}
+.payment .payment-container .payment-list{
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    background-color: #fcf2e6;
+    border: 2px solid #f2bf83;
+    border-radius: 4px;
+    padding: 12px;
+}
+.payment .payment-container .payment-list img{
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.payment .payment-container .payment-list .payment-content h1{
+    font-size: 14px;
+    color: #222222;
+}
+.payment .payment-container .payment-list .payment-content p{
+    font-size: 12px;
+    color: #999999;
+}
 /* Modal down app */
 #modal-down-app .modal-container {
     margin-top: calc((100vh - 550px)/2);
