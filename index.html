@@ -12,9 +12,15 @@
     <link rel="stylesheet" href="./assets/fonts/themify-icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+      <!-- Link Swiper's CSS -->
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      />
 </head>
 <body>
     <div id="main">
+        <!-- secsion header start -->
         <header class="header black">
             <div class="header-left">
                 <div class="header_navbar">
@@ -380,57 +386,163 @@
                 </div>
             </div>
         </header>
-
+        <!-- secsion header end -->
         <button class="backtop-btn" onclick="window.scrollTo({top: 0, behavior: &quot;smooth&quot;});">
             <i class="fas fa-chevron-up"></i>
         </button>
 
-        <div class="billboard">
-            <div class="billboar-wrap active">
-                <div class="billboard_backdrop">
-                    <div class="billboard_backdrop-img">
-                        <img src="./assets/img/billboard-img.webp" alt="Quân Cửu Linh - 01 - Tạ Trạch - Bành Tiểu Nhiễm – Kim Hạn – Đỗ Á Phi" title="Quân Cửu Linh">
-                    </div>
-                    <div class="billboard_backdrop-video" style="display: none;">
-                        <video src="./assets/img/billboard-video.mp4" autoplay="" muted="" poster="./assets/img/billboard-img.webp"></video>
+        <div class="billboard swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- slide 1 -->
+                <div class="swiper-slide">
+                    <div class="billboar-wrap active">
+                        <div class="billboard_backdrop">
+                            <div class="billboard_backdrop-img">
+                                <img src="./assets/img/billboard-img.webp" alt="Quân Cửu Linh - 01 - Tạ Trạch - Bành Tiểu Nhiễm – Kim Hạn – Đỗ Á Phi" title="Quân Cửu Linh">
+                            </div>
+                            <div class="billboard_backdrop-video" style="display: none;">
+                                <video src="./assets/img/billboard-video.mp4" autoplay="" muted="" poster="./assets/img/billboard-img.webp"></video>
+                            </div>
+                        </div>
+        
+                        <div class="billboard_overlay"></div>
+        
+                        <div class="billboard_content">
+                            <div class="billboard_content-main">
+                                <img src="./assets/img/billboard-title.webp" alt="" class="billboard_content-title">
+                                <div class="billboard_content-info">
+                                    <span class="billboard_content-year">2022</span>
+                                    <span class="billboard_content-update">16 tập</span>
+                                </div>
+                                <p class="billboard_content-description">
+                                    Vẻ Đẹp Đích Thực với bộ ba cực phẩm như Cha Eun-woo, Moon Ga-young và Hwang In-yoeb sẽ mang lại những thước phim chân thật về lứa tuổi học trò.
+                                </p>
+                                <div class="billboard_content-btns">
+                                    <a href="" class="billboard_content-btn-play">
+                                        <i class="fas fa-play"></i>
+                                        <span>Xem ngay</span>
+                                    </a>
+                                    <a href="" class="billboard_content-btn-add">
+                                        <i class="far fa-bookmark">
+                                            <i class="fas fa-plus"></i>
+                                        </i>
+                                        <span>Thêm vào lưu trữ</span>
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <div class="billboard_content-control">
+                                <div class="billboard_content-control-btn">
+                                    <i class="fas fa-volume-mute mute"></i>
+                                    <i class="fas fa-volume-up unmute"></i>
+                                    <i class="fas fa-undo-alt reload active"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="billboard_overlay"></div>
-
-                <div class="billboard_content">
-                    <div class="billboard_content-main">
-                        <img src="./assets/img/billboard-title.webp" alt="" class="billboard_content-title">
-                        <div class="billboard_content-info">
-                            <span class="billboard_content-year">2020</span>
-                            <span class="billboard_content-update">16 tập</span>
+                <!-- slide 2  -->
+                <div class="swiper-slide">
+                    <div class="billboar-wrap active">
+                        <div class="billboard_backdrop">
+                            <div class="billboard_backdrop-img">
+                                <img src="./assets/img/billboard-banner-2.jpg" alt="Quân Cửu Linh - 01 - Tạ Trạch - Bành Tiểu Nhiễm – Kim Hạn – Đỗ Á Phi" title="Quân Cửu Linh">
+                            </div>
+                            <div class="billboard_backdrop-video" style="display: none;">
+                                <!-- <video src="./assets/img/billboard-video.mp4" autoplay="" muted="" poster="./assets/img/billboard-img.webp"></video> -->
+                            </div>
                         </div>
-                        <p class="billboard_content-description">
-                            Vẻ Đẹp Đích Thực với bộ ba cực phẩm như Cha Eun-woo, Moon Ga-young và Hwang In-yoeb sẽ mang lại những thước phim chân thật về lứa tuổi học trò.
-                        </p>
-                        <div class="billboard_content-btns">
-                            <a href="" class="billboard_content-btn-play">
-                                <i class="fas fa-play"></i>
-                                <span>Xem ngay</span>
-                            </a>
-                            <a href="" class="billboard_content-btn-add">
-                                <i class="far fa-bookmark">
-                                    <i class="fas fa-plus"></i>
-                                </i>
-                                <span>Thêm vào lưu trữ</span>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="billboard_content-control">
-                        <div class="billboard_content-control-btn">
-                            <i class="fas fa-volume-mute mute"></i>
-                            <i class="fas fa-volume-up unmute"></i>
-                            <i class="fas fa-undo-alt reload active"></i>
+        
+                        <div class="billboard_overlay"></div>
+        
+                        <div class="billboard_content">
+                            <div class="billboard_content-main">
+                                <img src="./assets/img/billboard-title-2.png" alt="" class="billboard_content-title">
+                                <div class="billboard_content-info">
+                                    <span class="billboard_content-year">2022</span>
+                                    <span class="billboard_content-update">16 tập</span>
+                                </div>
+                                <p class="billboard_content-description">
+                                    Sau tốt nghiệp Thạc sĩ, Đường Vi Vị định dự thi Tiến sĩ, nhưng lại bị người thân ngăn và bị đòi hỏi kết hôn trước 28 tuổi. Đường Vi Vi mắc bệnh tâm lý, đối mặt với nhiều thử thách và thách thức. 
+                                </p>
+                                <div class="billboard_content-btns">
+                                    <a href="" class="billboard_content-btn-play">
+                                        <i class="fas fa-play"></i>
+                                        <span>Xem ngay</span>
+                                    </a>
+                                    <a href="" class="billboard_content-btn-add">
+                                        <i class="far fa-bookmark">
+                                            <i class="fas fa-plus"></i>
+                                        </i>
+                                        <span>Thêm vào lưu trữ</span>
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <div class="billboard_content-control">
+                                <div class="billboard_content-control-btn">
+                                    <i class="fas fa-volume-mute mute"></i>
+                                    <i class="fas fa-volume-up unmute"></i>
+                                    <i class="fas fa-undo-alt reload active"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <!-- slide 3 -->
+                <div class="swiper-slide">
+                    <div class="billboar-wrap active">
+                        <div class="billboard_backdrop">
+                            <div class="billboard_backdrop-img">
+                                <img src="./assets/img/billboard-banner-3.jpg" alt="Quân Cửu Linh - 01 - Tạ Trạch - Bành Tiểu Nhiễm – Kim Hạn – Đỗ Á Phi" title="Quân Cửu Linh">
+                            </div>
+                            <div class="billboard_backdrop-video" style="display: none;">
+                                <img src="./assets/img/billboard-img.webp" alt="">
+                                <!-- <video src="./assets/img/billboard-video.mp4" autoplay="" muted="" poster="./assets/img/billboard-img.webp"></video> -->
+                            </div>
+                        </div>
+        
+                        <div class="billboard_overlay"></div>
+        
+                        <div class="billboard_content">
+                            <div class="billboard_content-main">
+                                <img src="./assets/img/billboard-title-3.png" alt="" class="billboard_content-title">
+                                <div class="billboard_content-info">
+                                    <span class="billboard_content-year">2022</span>
+                                    <span class="billboard_content-update">16 tập</span>
+                                </div>
+                                <p class="billboard_content-description">
+                                    Bộ phim "Tiêu Sái Giai Nhân Đạm Đạm Trang" năm 2021 cải biên từ tiểu thuyết "Thịnh Thế Trang Nương" của Lệ Tiêu,  kể về beauty blogger Tư Nghiên (do Khổng Tuyết Nhi đóng) xuyên khôn
+                                </p>
+                                <div class="billboard_content-btns">
+                                    <a href="" class="billboard_content-btn-play">
+                                        <i class="fas fa-play"></i>
+                                        <span>Xem ngay</span>
+                                    </a>
+                                    <a href="" class="billboard_content-btn-add">
+                                        <i class="far fa-bookmark">
+                                            <i class="fas fa-plus"></i>
+                                        </i>
+                                        <span>Thêm vào lưu trữ</span>
+                                    </a>
+                                </div>
+                            </div>
+        
+                            <div class="billboard_content-control">
+                                <div class="billboard_content-control-btn">
+                                    <i class="fas fa-volume-mute mute"></i>
+                                    <i class="fas fa-volume-up unmute"></i>
+                                    <i class="fas fa-undo-alt reload active"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+           
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
         </div>
 
         <div class="container">
@@ -6886,6 +6998,8 @@
         </div>
     </div>
 
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

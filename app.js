@@ -1254,3 +1254,21 @@ function playModal() {
     }
 }
 setTimeout(playModal, 2000)
+
+
+// swiper slider
+var swiper = new Swiper(".mySwiper", {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+    },
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
